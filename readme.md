@@ -1,6 +1,8 @@
 # Project
 Simple example of developing API (Application Programming Interface) with C# and .NET 9
 
+- ASP.NET Core Minimal API Template command ``dotnet new web`
+
 ## Endpoints
 - GET /users - Returns a list of users
 - GET /users/{id} - Returns a single user
