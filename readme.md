@@ -13,8 +13,8 @@ Simple example of developing API (Application Programming Interface) with C# and
 - DELETE /users/{id} - Delete a user by id
 
 ### Web API Controllers
-- GET /weatherforecast - Returns a list of weather data
-- 
+- GET /WeatherForecast - Returns a list of weather data
+
 # Usage
 - Clone the project with `git clone`
 - Move into one of the applications with `cd` 
