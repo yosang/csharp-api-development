@@ -1,7 +1,17 @@
 using minimal.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddEndpointsApiExplorer(); // This is needed when working with minimal web api's, we dont need it with MVC
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 List<User> users = new()
 {

@@ -1,7 +1,8 @@
 # Project
 Simple example of developing API (Application Programming Interface) with C# and .NET 9
 
-- ASP.NET Core Minimal API Template command ``dotnet new web`
+- ASP.NET Core Minimal API Template - `dotnet new web`
+- AS.NET Core WebApi Template - `dotnet new webapi -controllers`
 
 ## Endpoints
 - GET /users - Returns a list of users
@@ -14,7 +15,7 @@ Simple example of developing API (Application Programming Interface) with C# and
 - Clone the project with `git clone`
 - Move into one of the applications with `cd` 
 - Run the application with `dotnet run`
-- Test the endpoints with Postman (collection provided)
+- Test the endpoints from the swagger path `/swagger`
 
 # Author
 [Yosmel Chiang](https://github.com/yosang)
